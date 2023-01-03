@@ -1,0 +1,13 @@
+* {
+    font-size: 23px;
+}
+h2 {
+    text-decoration: underline;
+}
+#elemento-1 {
+    color: rgb(202, 11, 11);
+}
+
+ul li#elemento-1{
+    font-size: 2rem;
+}
