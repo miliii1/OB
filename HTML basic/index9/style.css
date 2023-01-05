@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern {
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    background-color: indigo;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 7px rgb(46, 0, 78);
+    background-color: rgba(139, 25, 221, 0.863);
+    transition: 0.4s;
+}
+
+.btn-modern::before {
+    content: "Botón";
+}
+
+.btn-modern:hover::before {
+    content: "Button";
+}
+
